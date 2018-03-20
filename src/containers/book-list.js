@@ -19,7 +19,6 @@ class BookList extends Component {
   }
 
   render() {
-    console.log(this.props.books);
     return <ul className="list-group col-sm-4">{this.renderList()}</ul>;
   }
 }
